@@ -39,6 +39,9 @@ export const Home = () => {
           </Grid>
         </Grid>
       </Box>
+      
+      {/* eslint-disable-next-line */}
+      <a id='about' />
 
       <Box
         alignItems='center'
@@ -52,7 +55,6 @@ export const Home = () => {
             <Placeholder label='Historic marker' />
           </Grid>
           <Grid item xs={12} sm={7}>
-            <a id='about' />
             <p>
               <b>About/History text here </b>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

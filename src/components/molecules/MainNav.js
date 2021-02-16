@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 // material-ui
 import Box from '@material-ui/core/Box'
@@ -17,7 +18,7 @@ export const MainNav = () => {
         mx='auto'
         width='66%'>
 
-        <a href='/#about'>ABOUT</a>
+        <HashLink to='/#about'>ABOUT</HashLink>
         <Link to='/menu'>MENU</Link>
         <Link to='/inn'>INN</Link>
         <Link to='/catering'>PRIVATE PARTIES</Link>
