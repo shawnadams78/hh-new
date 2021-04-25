@@ -17,7 +17,7 @@ import { Packages } from './components/pages/Packages'
 import { Events } from './components/pages/Events'
 import { Holidays } from './components/pages/Holidays'
 
-import './App.css'
+import './App.scss'
 
 const theme = createMuiTheme()
 

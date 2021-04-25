@@ -9,6 +9,7 @@ export const MainNav = () => {
   return (
     <Box
       as='nav'
+      className='main-nav'
       textAlign='center'>
 
       <Box

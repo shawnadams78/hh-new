@@ -1,3 +1,20 @@
+
+.main-nav a {
+  color: #6081a6;
+  font-family: Lato, Helvetica, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 200ms ease-out;
+
+  &:hover {
+    color: #485059;
+  }
+}
+
+
+
+
+
 .App {
   text-align: center;
 }
